@@ -3,9 +3,20 @@ body{
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/Eva's Holiday Oven.png");
 	background-size: cover;
 }
+h1{
+	background-color: rgba(0,0,0, 0.5);
+	text-align: center;
+	color: white;
+}
 td{
 	text-align: center;
 }
+label{
+	background-color: rgba(0,0,0, 0.5);
+	width: 180px;
+	height: 179px;
+	padding-top:5px;
+}
 table tr td, table tr th{
-    background-color: rgba(0,0,0, 0.3) !important;
+    background-color: rgba(0,0,0, 0.0) !important;
 }

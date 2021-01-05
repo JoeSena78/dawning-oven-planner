@@ -10,189 +10,190 @@
 	</head>
 	<body class=".bg-dark">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<h1>Eva's Holiday Oven Planner</h1>
 		<div>
 			<table id="recipes" class="table table-dark table-borderless">
 				<tr>
 					<td name="tower">
-						<label for="gjallardoodles">
-							Gjallardoodles<br>
+						<label id="zavala" for="gjallardoodles" class="labelTest">
+							Gjallardoodles<br><br>
 							<img src="./images/Gjallardoodles.jpg"><br>
-							Zavala
+							Commander Zavala
 						</label><br>
-						<input type="checkbox" id="gjallardoodles" name="check">
+						<input type="checkbox" id="gjallardoodles" name="check" onclick="toggleLabel('gjallardoodles','zavala')" visibility: hidden>
 					</td>
 					
 					<td name ="tower">
-						<label for="travelerDonutHoles">
-							Traveler Donut Holes<br>
+						<label id="ikora" for="travelerDonutHoles">
+							Traveler Donut Holes<br><br>
 							<img src="./images/Traveler Donut Holes.jpg"><br>
-							Ikora
+							Ikora Rey
 						</label><br>
-						<input type="checkbox" id="travelerDonutHoles" name="check">
+						<input type="checkbox" id="travelerDonutHoles" name="check" onclick="toggleLabel('travelerDonutHoles','ikora')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="chocolateShipCookies">
-							Chocolate Ship Cookies<br>
+						<label id="amanda" for="chocolateShipCookies">
+							Chocolate Ship Cookies<br><br>
 							<img src="./images/Chocolate Ship Cookies.jpg"><br>
-							Amanda
+							Amanda Holiday
 						</label><br>
-						<input type="checkbox" id="chocolateShipCookies" name="check">
+						<input type="checkbox" id="chocolateShipCookies" name="check" onclick="toggleLabel('chocolateShipCookies','amanda')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="telemetryTapioca">
-							Telemetry Tapioca<br>
+						<label id="banshee" for="telemetryTapioca">
+							Telemetry Tapioca<br><br>
 							<img src="./images/Telemetry Tapioca.jpg"><br>
 							Banshee-44
 						</label><br>
-						<input type="checkbox" id="telemetryTapioca" name="check">
+						<input type="checkbox" id="telemetryTapioca" name="check" onclick="toggleLabel('telemetryTapioca','banshee')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="eliksniBirdseed">
-							Eliksni Birdseed<br>
+						<label id="hawthorn" for="eliksniBirdseed">
+							Eliksni Birdseed<br><br>
 							<img src="./images/Eliksni Birdseed.jpg"><br>
 							Hawthorn
 						</label><br>
-						<input type="checkbox" id="eliksniBirdseed" name="check">
+						<input type="checkbox" id="eliksniBirdseed" name="check" onclick="toggleLabel('eliksniBirdseed','hawthorn')" visibility: hidden>
 					</td>
 					
 					<td name="edz">
-						<label for="gentlemansShortbread">
-							Gentleman's Shortbread<br>
+						<label id="devrim" for="gentlemansShortbread">
+							Gentleman's Shortbread<br><br>
 							<img src="./images/Gentleman's Shortbread.jpg"><br>
-							Devrim
+							Devrim Kay
 						</label><br>
-						<input type="checkbox" id="gentlemansShortbread" name="check">
+						<input type="checkbox" id="gentlemansShortbread" name="check" onclick="toggleLabel('gentlemansShortbread','devrim')" visibility: hidden>
 					</td>
 					
 					<td name="Nessus">
-						<label for="infiniteForestCake">
-							Infinite Forest Cake<br>
+						<label id="failsafe" for="infiniteForestCake">
+							Infinite Forest Cake<br><br>
 							<img src="./images/Infinite Forest Cake.jpg"><br>
 							Failsafe
 						</label><br>
-						<input type="checkbox" id="infiniteForestCake" name="check">
+						<input type="checkbox" id="infiniteForestCake" name="check" onclick="toggleLabel('infiniteForestCake','failsafe')" visibility: hidden>
 					</td>
 				</tr>
 				<tr>
 					<td name="tower">
-						<label for="vanillaBlades">
-							Vanilla Blades<br>
+						<label id="shaxx" for="vanillaBlades">
+							Vanilla Blades<br><br>
 							<img src="./images/Vanilla Blades.jpg"><br>
-							Shaxx
+							Lord Shaxx
 						</label><br>
-						<input type="checkbox" id="vanillaBlades" name="check">
+						<input type="checkbox" id="vanillaBlades" name="check" onclick="toggleLabel('vanillaBlades','shaxx')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="darkChocolateMotes">
-							Dark Chocolate Motes<br>
+						<label id="drifter" for="darkChocolateMotes">
+							Dark Chocolate Motes<br><br>
 							<img src="./images/Dark Chocolate Motes.jpg"><br>
 							Drifter
 						</label><br>
-						<input type="checkbox" id="darkChocolateMotes" name="check">
+						<input type="checkbox" id="darkChocolateMotes" name="check" onclick="toggleLabel('darkChocolateMotes','drifter')" visibility: hidden>
 					</td>
 					
 					<td name="tangledShore">
-						<label for="candyDeadGhosts">
-							Candy Dead Ghosts<br>
+						<label id="spider" for="candyDeadGhosts">
+							Candy Dead Ghosts<br><br>
 							<img src="./images/Candy Dead Ghosts.jpg"><br>
 							Spider
 						</label><br>
-						<input type="checkbox" id="candyDeadGhosts" name="check">
+						<input type="checkbox" id="candyDeadGhosts" name="check" onclick="toggleLabel('candyDeadGhosts','spider')" visibility: hidden>
 					</td>
 					
 					<td name="dreamingCity">
-						<label for="illFortuneCookies">
-							Ill-Fortune Cookies<br>
+						<label id="petra" for="illFortuneCookies">
+							Ill-Fortune Cookies<br><br>
 							<img src="./images/Ill-Fortune Cookies.jpg"><br>
-							Petra
+							Petra Venj
 						</label><br>
-						<input type="checkbox" id="illFortuneCookies" name="check">
+						<input type="checkbox" id="illFortuneCookies" name="check" onclick="toggleLabel('illFortuneCookies','petra')" visibility: hidden>
 					</td>
 					
 					<td name="xur">
-						<label for="strangeCookies">
-							Strange Cookies<br>
+						<label id="xur" for="strangeCookies">
+							Strange Cookies<br><br>
 							<img src="./images/Strange Cookies.jpg"><br>
-							Xur
+							Xûr
 						</label><br>
-						<input type="checkbox" id="strangeCookies" name="check">
+						<input type="checkbox" id="strangeCookies" name="check" onclick="toggleLabel('strangeCookies','xur')" visibility: hidden>
 					</td>
 					
 					<td name="lastWish">
-						<label for="thousandLayerCookie">
-							Thousand-Layer Cookie<br>
+						<label id="riven" for="thousandLayerCookie">
+							Thousand-Layer Cookie<br><br>
 							<img src="./images/Thousand-Layer Cookie.jpg"><br>
 							<a href="./images/RivenWish.png" target="_blank">Riven</a>
 						</label><br>
-						<input type="checkbox" id="thousandLayerCookie" name="check">
+						<input type="checkbox" id="thousandLayerCookie" name="check" onclick="toggleLabel('thousandLayerCookie','riven')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="lavenderRibbonCookies">
-							Lavender Ribbon Cookies<br>
+						<label id="saint" for="lavenderRibbonCookies">
+							Lavender Ribbon Cookies<br><br>
 							<img src="./images/Lavender Ribbon Cookies.jpg"><br>
 							Saint-14
 						</label><br>
-						<input type="checkbox" id="lavenderRibbonCookies" name="check">
+						<input type="checkbox" id="lavenderRibbonCookies" name="check" onclick="toggleLabel('lavenderRibbonCookies','saint')" visibility: hidden>
 					</td>
 				</tr>
 				<tr>
 					<td name="moon">
-						<label for="ascendantOatmealRasinCookies">
+						<label id="eris" for="ascendantOatmealRasinCookies">
 							Ascendant Oatmeal<br>Rasin Cookies<br>
 							<img src="./images/Ascendant Oatmeal Raisin Cookies.jpg"><br>
-							Eris
+							Eris Morn
 						</label><br>
-						<input type="checkbox" id="ascendantOatmealRasinCookies" name="check">
+						<input type="checkbox" id="ascendantOatmealRasinCookies" name="check" onclick="toggleLabel('ascendantOatmealRasinCookies','eris')" visibility: hidden>
 					</td>
 					
 					<td name="europa">
-						<label for="ethericColdsnaps">
-							Etheric Coldsnaps<br>
+						<label id="variks" for="ethericColdsnaps">
+							Etheric Coldsnaps<br><br>
 							<img src="./images/Etheric Coldsnaps.jpg"><br>
 							Variks
 						</label><br>
-						<input type="checkbox" id="ethericColdsnaps" name="check">
+						<input type="checkbox" id="ethericColdsnaps" name="check" onclick="toggleLabel('ethericColdsnaps','variks')" visibility: hidden>
 					</td>
 					
 					<td name="cosmodrome">
-						<label for="blueberryCrumblers">
-							Blueberry Crumblers<br>
+						<label id="shaw" for="blueberryCrumblers">
+							Blueberry Crumblers<br><br>
 							<img src="./images/Blueberry Crumblers.jpg"><br>
 							Shaw Han
 						</label><br>
-						<input type="checkbox" id="blueberryCrumblers" name="check">
+						<input type="checkbox" id="blueberryCrumblers" name="check" onclick="toggleLabel('blueberryCrumblers','shaw')" visibility: hidden>
 					</td>
 					
 					<td name="tangledShore">
-						<label for="bittersweetBiscotti">
-							Bittersweet Biscotti<br>
+						<label id="crow" for="bittersweetBiscotti">
+							Bittersweet Biscotti<br><br>
 							<img src="./images/Bittersweet Biscotti.jpg"><br>
 							Crow
 						</label><br>
-						<input type="checkbox" id="bittersweetBiscotti" name="check">
+						<input type="checkbox" id="bittersweetBiscotti" name="check" onclick="toggleLabel('bittersweetBiscotti','crow')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="brightDustedSnowballs">
-							Bright-Dusted Snowballs<br>
+						<label id="tess" for="brightDustedSnowballs">
+							Bright-Dusted Snowballs<br><br>
 							<img src="./images/Bright-Dusted Snowballs.jpg"><br>
-							Tess
+							Tess Everis
 						</label><br>
-						<input type="checkbox" id="brightDustedSnowballs" name="check">
+						<input type="checkbox" id="brightDustedSnowballs" name="check" onclick="toggleLabel('brightDustedSnowballs','tess')" visibility: hidden>
 					</td>
 					
 					<td name="tower">
-						<label for="classicButterCookies">
-							Classic Butter Cookies<br>
+						<label id="eva" for="classicButterCookies">
+							Classic Butter Cookies<br><br>
 							<img src="./images/Classic Butter Cookies.jpg"><br>
-							Eva
+							Eva Levante
 						</label><br>
-						<input type="checkbox" id="classicButterCookies" name="check">
+						<input type="checkbox" id="classicButterCookies" name="check" onclick="toggleLabel('classicButterCookies','eva')" visibility: hidden>
 					</td>
 				</tr>
 			</table>
