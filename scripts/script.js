@@ -44,6 +44,9 @@ function clearCheck(){
 		else if(check[i].id == "lavenderRibbonCookies"){
 			document.getElementById("saint").style.backgroundColor = 'rgba(0,0,0, 0.5)';
 		}
+		else if(check[i].id == "hotCrossfireBuns"){
+			document.getElementById("ada").style.backgroundColor = 'rgba(0,0,0, 0.5)';
+		}
 		else if(check[i].id == "ascendantOatmealRasinCookies"){
 			document.getElementById("eris").style.backgroundColor = 'rgba(0,0,0, 0.5)';
 		}
