@@ -62,6 +62,12 @@ function clearCheck(){
 		else if(check[i].id == "classicButterCookies"){
 			document.getElementById("eva").style.backgroundColor = 'rgba(0,0,0, 0.5)';
 		}
+		else if(check[i].id == "starwortThins"){
+			document.getElementById("elsie").style.backgroundColor = 'rgba(0,0,0, 0.5)';
+		}
+		else if(check[i].id == "ascendantAppleTart"){
+			document.getElementById("mara").style.backgroundColor = 'rgba(0,0,0, 0.5)';
+		}
 	}
 }
 
